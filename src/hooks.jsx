@@ -15,7 +15,7 @@ const HookExamples = () => {
 
   useEffect(() => {
     var1 + var2;
-  }, [var1]); // bad -> both variables must be declared here. If your code doesn't work with both variables then you're doing something wrong -> https://react.dev/learn/removing-effect-dependencies
+  }, [var1]); // bad -> both variables must be declared here. If our code doesn't work with both variables then we're doing something wrong -> https://react.dev/learn/removing-effect-dependencies
 
   if (enabled) {
     const [count, setCount] = useState(0); // bad-> hooks must be called unconditionally
